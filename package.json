@@ -1,0 +1,40 @@
+{
+  "name": "Pinmood",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Peter Browse <peterbrowse@gmail.com>",
+  "description": "Pinmood allows for the quick and easy creation of printable and saveable mood boards from pinterest board URLs.",
+  "contributors": [
+    {
+      "name": "Peter Browse",
+      "email": "peterbrowse@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "connect-mongo": "0.x",
+    "connect-flash": "0.x",
+    "mongoose": "3.x",
+    "node-sass": "0.x",
+    "jade": "1.x",
+    "passport": "0.x",
+    "moment": "2.x",
+    "cheerio": "0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterbrowse/pinmood"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.x"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "subdomain": "pinmood"
+}
