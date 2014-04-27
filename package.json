@@ -14,7 +14,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "4.x",
+    "express": "3.x",
     "connect-mongo": "0.x",
     "connect-flash": "0.x",
     "mongoose": "3.x",
